@@ -7,7 +7,7 @@ document.addEventListener("scroll", () => {
 
 function handleScroll() {
   var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
-  if (rootElement.scrollTop / scrollTotal > 0.3) {
+  if (rootElement.scrollTop / scrollTotal > 0.2) {
     scrollToTopButton.style.opacity = 1;
   } else {
     scrollToTopButton.style.opacity = 0;

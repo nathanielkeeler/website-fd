@@ -33,6 +33,7 @@ a:link,
 a:active {
   color: var(--paynes-gray);
   text-decoration: none;
+  transition: 0.5s;
 }
 
 a:hover {
@@ -52,7 +53,7 @@ li {
 }
 
 img {
-  transition: transform 200ms 0ms ease-in-out, height 200ms 0ms ease-in-out;
+  
 }
 
 .home-background {
@@ -133,6 +134,7 @@ section {
   justify-content: center;
   align-items: center;
   background-color: rgb(246, 247, 213);
+  box-shadow: 0 0 8px 8px white inset;
 }
 
 .flex-item img {
@@ -140,19 +142,19 @@ section {
 }
 
 #sec-one {
-  background-color: #d7f5df;
+  /* background-color: #d7f5df; */
   max-width: 100vw;
   min-height: 100vh;
 }
 
 .sec-content {
-  background-color: #dde8fa;
+  /* background-color: #dde8fa; */
   height: auto;
   width: auto;
 }
 
 #sec-three {
-  background-color: rgb(255, 230, 242);
+  /* background-color: rgb(255, 230, 242); */
   max-width: 100vw;
   min-height: 50vh;
 }
