@@ -6,6 +6,9 @@
   --white: #ffffff;
   --light-blue: #b0d0d3;
   --bitter-sweet-red: #ed6a5a;
+  --mint: #71b48d;
+  --asparagus: #77ad78;
+  --emerald: #70b77e;
 }
 
 * {
@@ -25,13 +28,17 @@ body {
   flex-direction: column;
 }
 
-a:hover,
 a:visited,
 a:link,
 a:active {
   color: var(--paynes-gray);
   text-decoration: none;
+}
+
+a:hover {
   cursor: pointer;
+  color: var(--bitter-sweet-red);
+  transition: 0.5s;
 }
 
 ul {
@@ -196,8 +203,6 @@ footer div {
   right: 3vw;
   width: 3rem;
   height: 3rem;
-  background-color: var(--bitter-sweet-red);
-  color: white;
   border-radius: 5px;
   opacity: 0;
   transition: 0.5s;
