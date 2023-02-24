@@ -178,12 +178,8 @@ section .container {
   padding: 1rem;
 }
 
-.portrait-small {
-  width: 30%;
-}
-
 .portrait {
-  width: 50%;
+  width: 30%;
 }
 
 .even {
